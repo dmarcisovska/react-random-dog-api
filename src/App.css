@@ -62,9 +62,40 @@ h1 {
 }
 
 .dogDropDown {
-  width: 250px;
   margin-top: 30px;
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
+}
+
+.dog-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.dog-buttons .btn-dog {
+  margin: 40px 20px;
+  font-size: 1.5rem;
+}
+
+.footer {
+  background: aqua;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 0 !important;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+.left-menu {
+  height: 100vh;
+  background: pink;
+  width: 30px;
 }

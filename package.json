@@ -1,5 +1,6 @@
 {
   "name": "dogs",
+  "homepage": "https://denisa-react-random-dogs.netlify.app/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
